@@ -1,0 +1,78 @@
+name: canijoofix
+description: "fixed"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  cloud_firestore: ^5.6.7
+  firebase_auth: ^5.5.3
+  firebase_core: ^3.13.0
+  flutter_slidable: ^4.0.0
+  flutter_speed_dial: ^7.0.0
+  flutter_svg: ^2.1.0
+  gap: ^3.0.1
+  get: ^4.7.2
+  google_sign_in: ^6.3.0
+  shared_preferences: ^2.5.3
+  url_launcher: ^6.3.1
+  flutter_native_splash: ^2.4.6
+  intl: ^0.20.2
+  pdf: ^3.11.3
+  printing: ^5.14.2
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.3
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/images/icon.png"
+flutter_launcher_icons:
+  image_path: "assets/images/icon1.png"
+
+  android: "launcher_icon"
+  image_path_android: "assets/images/icon1.png"
+  min_sdk_android: 28 # android min sdk min:16, default 21
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/icon1.png"
+  #adaptive_icon_monochrome: "assets/icon/monochrome.png"
+
+  ios: true
+  image_path_ios: "assets/icon/icon.png"
+  #remove_alpha_channel_ios: true
+  #image_path_ios_dark_transparent: "assets/icon/icon_dark.png"
+  #image_path_ios_tinted_grayscale: "assets/icon/icon_tinted.png"
+  #desaturate_tinted_to_grayscale_ios: true
+
+  web:
+    generate: true
+    image_path: "assets/icon/icon.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+
+  windows:
+    generate: true
+    image_path: "assets/icon/icon.png"
+    icon_size: 48 # min:48, max:256, default: 48
+
+  macos:
+    generate: true
+    image_path: "assets/icon/icon.png"
+flutter:
+  assets:
+    - assets/images/logo.png
+    - assets/images/flour-3.svg
+    - assets/images/flour-3-512.png
+    - assets/images/android_light_rd_SI.svg
+    - assets/images/web_light_rd_SI@4x.png
+    - assets/icon/icons8-google-48.png
+    - assets/icon/icons8-google.svg
+    - assets/images/icon.png
+  uses-material-design: true
